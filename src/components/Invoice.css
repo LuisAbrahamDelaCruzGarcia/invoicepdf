@@ -1,0 +1,38 @@
+/* src/Invoice.css */
+.invoice-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px; /* Ajusta según sea necesario */
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: red;
+  }
+  
+  button {
+    margin: 20px auto;
+    display: block;
+  }
+  .invoice-app-container{
+    border: 1px solid #000;
+
+  }
+  .invoice-app-container {
+    /* border: 1px solid #000; */
+    background: #e4e6e7;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}

@@ -1,0 +1,257 @@
+/* src/Invoice.css */
+.invoice-container {
+  padding: 53px;
+  width: 100%;
+  max-width: 744px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+  
+  .invoice-header, .customer-info, .order-details, .invoice-footer {
+    margin-bottom: 20px;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-logo {
+    width: 330px;
+    margin-right: 20px;
+}
+  
+  .company-details {
+    flex-grow: 1;
+  }
+  
+  .invoice-details {
+    text-align: right;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+  p{
+     font-family: "Roboto", sans-serif;
+  }
+  h1, h2, h3 {
+    margin: 0;
+     font-family: "Roboto", sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  .custom-text {
+    position: absolute;
+    /* Ajusta la posición del texto personalizado según sea necesario */
+    top: 50px;
+    left: 50px;
+    font-size: 16px;
+    color: red; /* Puedes ajustar el color y otros estilos según tus necesidades */
+     font-family: "Roboto", sans-serif;
+  } 
+
+  .invoice-container {
+    position: relative;
+    /* Otros estilos */
+  }
+  .invoice-container {
+    padding-top: 25px;
+}
+p.pdf-info-text {
+  line-height: normal;
+  text-align: end;
+  margin: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+p.pdf-info-text.title {
+  margin-top: 3px;
+  font-size: 20px;
+}
+.company-info {
+  padding-bottom: 22px;
+  border-bottom: 2px solid #d91023;
+}
+
+section.customer-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.shipping-info h3 {
+  font-size: 19px;
+  font-family: "Roboto";
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.shipping-info p {
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: normal;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.client-order-info p {
+  text-align: end;
+  font-size: 13px;
+  font-family: "Roboto";
+  line-height: normal;
+  margin: 0px;
+  margin-bottom: 6px;
+}
+.img_item_title_info {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+td.details_item_invoice {
+  text-align: center;
+}
+.img_item_title_info {
+  font-size: 12px;
+  font-family: 'Roboto';
+  text-align: left;
+}
+span.item_title_invoice {
+  font-weight: 600;
+}
+span.item_sku_invoice {
+  font-weight: 400;
+}
+
+td.details_item_info {
+  width: 35%;
+}
+tr.item_column_invoice_orders {
+  font-size: 13px;
+  font-family: 'Roboto';
+  letter-spacing: .1px;
+  font-weight: 500;
+}
+tr.item_column_invoice_orders {
+  border-bottom: 2px solid #d91023;
+}
+tr.item_details_order_invoice {
+  border-bottom: 2px solid #d91023;
+}
+footer.invoice-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.container_grand_total {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.invoice_footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 6px;
+  border-bottom: 2px solid red;
+  font-size: 13px;
+  padding-top: 12px;
+  font-family: 'Roboto';
+}
+.invoice_footer span.f_subtitle {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+span.invoice_include {
+  font-weight: 400;
+}
+span.f_grand_total {
+  position: relative;
+  right: 49px;
+}
+.invoice_footer.--grand_total {
+  background: #d91023;
+  position: relative;
+  left: -23px;
+  width: 23.6rem;
+  top: -2px;
+  border: 0;
+  padding-left: 23px;
+  padding-right: 10px;
+  color: #ffff;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+th.column_items_t {
+  text-align: left;
+}
+section.information_aditional_container_details {
+  display: flex;
+  justify-content: space-between;
+}
+.information_xt.payment_information {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.information_xt.payment_information h3 {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.information_xt.payment_information {
+  font-size: 12px;
+  font-family: Roboto;
+  line-height: normal;
+}
+.information_xt.thank_you {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
